@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningMauiC_.MainPage"
+             BackgroundColor="Aqua">
+
+    <Grid Padding="20" BackgroundColor="#1c1c1c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="10" ColumnSpacing="10">
+        <!-- Definindo as linhas e colunas -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Para o resultado -->
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <!-- Para os botões -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Result Row -->
+        <Label x:Name="resultLabel" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="End" TextTransform="Uppercase" Padding="25" TextColor="#fff" Grid.Row="0" Grid.ColumnSpan="4"/>
+
+        <!-- Botões -->
+        <Button Text="7" FontSize="Medium" Clicked="getBtnValue" Grid.Row="1" Grid.Column="0" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="8" FontSize="Medium" Clicked="getBtnValue" Grid.Row="1" Grid.Column="1" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="9" FontSize="Medium" Clicked="getBtnValue" Grid.Row="1" Grid.Column="2" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="*" FontSize="Medium" Clicked="getBtnValue" Grid.Row="1" Grid.Column="3" BackgroundColor="#242124" TextColor="White"/>
+
+        <Button Text="4" FontSize="Medium" Clicked="getBtnValue" Grid.Row="2" Grid.Column="0" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="5" FontSize="Medium" Clicked="getBtnValue" Grid.Row="2" Grid.Column="1" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="6" FontSize="Medium" Clicked="getBtnValue" Grid.Row="2" Grid.Column="2" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="-" FontSize="Medium" Clicked="getBtnValue" Grid.Row="2" Grid.Column="3" BackgroundColor="#242124" TextColor="White"/>
+
+        <Button Text="1" FontSize="Medium" Clicked="getBtnValue" Grid.Row="3" Grid.Column="0" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="2" FontSize="Medium" Clicked="getBtnValue" Grid.Row="3" Grid.Column="1" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="3" FontSize="Medium" Clicked="getBtnValue" Grid.Row="3" Grid.Column="2" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="+" FontSize="Medium" Clicked="getBtnValue" Grid.Row="3" Grid.Column="3" BackgroundColor="#242124" TextColor="White"/>
+
+        <Button Text="C" FontSize="Medium" Clicked="getBtnValue" Grid.Row="4" Grid.Column="0" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="," FontSize="Medium" Clicked="getBtnValue" Grid.Row="4" Grid.Column="1" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="0" FontSize="Medium" Clicked="getBtnValue" Grid.Row="4" Grid.Column="2" BackgroundColor="#4a4a4a" TextColor="White"/>
+        <Button Text="/" FontSize="Medium" Clicked="getBtnValue" Grid.Row="4" Grid.Column="3" BackgroundColor="#242124" TextColor="White"/>
+
+        <Button x:Name="equalBtn" FontSize="Medium" Clicked="onEqualsClicked" Text="=" Grid.Row="5" Grid.Column="3" BackgroundColor="#007c7d" TextColor="Black"/>
+        <Button Text="DEL" FontSize="Medium" Clicked="getBtnValue" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="#242124" TextColor="White"/>
+
+    </Grid>
+
+</ContentPage>
