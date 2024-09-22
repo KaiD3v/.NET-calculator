@@ -177,3 +177,4 @@ C:\Users\kaikr\source\repos\LearningMauiC#\LearningMauiC#\obj\Debug\net8.0-windo
 C:\Users\kaikr\source\repos\LearningMauiC#\LearningMauiC#\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\kaikr\source\repos\LearningMauiC#\LearningMauiC#\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\kaikr\source\repos\LearningMauiC#\LearningMauiC#\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+c:\Users\kaikr\source\repos\LearningMauiC#\LearningMauiC#\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\LearningMauiC#.sourcelink.json

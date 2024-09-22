@@ -1,1 +1,48 @@
-.vs
+# Build Results
+bin/
+obj/
+Debug/
+Release/
+TestResults/
+*.apk
+*.aab
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# NuGet Packages
+*.nupkg
+packages/
+*.snupkg
+
+# Logs
+*.log
+
+# macOS specific files
+.DS_Store
+
+# Others
+*.pdb
+*.mdb
+*.opendb
+*.dbmdl
+*.dbproj
+*.dbp
+
+# Android specific
+*.apk
+*.aab
+*.ap_
+
+# iOS specific
+*.ipa
+*.app.dSYM

@@ -1,1 +1,1 @@
-C:\Users\kaikr\source\repos\LearningMauiC#\LearningMauiC#\LearningMauiC#.csproj;x64
+c:\Users\kaikr\source\repos\LearningMauiC#\LearningMauiC#\LearningMauiC#.csproj;x64
